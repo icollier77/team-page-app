@@ -30,6 +30,7 @@ Assignment 12 of the [Front-End Web Dev bootcamp][bootcamp-url] to create a team
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#project-goal">Project Goal</a></li>
+        li><a href="#sample-project-image">Sample Project Image</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -43,6 +44,12 @@ Assignment 12 of the [Front-End Web Dev bootcamp][bootcamp-url] to create a team
 
 ### Project Goal
 The goal of this project is to apply principles of Object-Oriented Programming and Test-Driven Development, and to practice working with Node.js (specifically the inquirer and fs packages) and Jest.js to create an app that dynamically generates an html page based on CLI inputs.
+
+### Sample Project Image
+
+We were provided with a sample image of how the generated html file can look in the browser (the styling is optional):
+
+![sample image][sample-image]
 
 
 ### Built With
@@ -73,6 +80,10 @@ That meant to write the test files first, then writing JavaScrip code that fails
 <!-- Deployed project -->
 ## Deployed project
 
+The generated html file looks like this:
+
+![team page][html-image]
+
 This repository contains the JavaScript files, the test files and the final output html file:
 
 - [ ] [Project repo][repo-url]
@@ -101,3 +112,5 @@ This repository contains the JavaScript files, the test files and the final outp
 [inquirer-url]: https://www.npmjs.com/package/inquirer
 [bootstrap-url]: https://getbootstrap.com/
 [bootcamp-url]: https://www.edx.org/boot-camps/coding/skills-bootcamp-in-front-end-web-development
+[html-image]: ./images/html-screenshot.png
+[sample-image]: ./instructions/14-object-oriented-programming-challenge-demo.png
