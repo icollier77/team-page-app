@@ -144,10 +144,10 @@ function addIntern() {
   }
 
 function finishTeam() {
-  fs.writeFile('./output/team.html', render(teamMembers), function (err) {
+  fs.writeFile(outputPath, render(teamMembers), function (err) {
     if (err) throw err;
     console.log('The file has been created!');
-  });
+    });
 }
 
 start();
