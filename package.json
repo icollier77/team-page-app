@@ -1,0 +1,24 @@
+{
+  "name": "team_profile",
+  "version": "1.0.0",
+  "description": "CLI application to generate a team page",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "icollier77"
+  },
+  "author": "Inessa Collier",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
